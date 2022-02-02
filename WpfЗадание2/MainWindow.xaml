@@ -5,8 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfЗадание2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="350">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBox Text="1234,56" Grid.Row="0" Margin="5" Padding="180,30,0,0" FontSize="36" BorderBrush="#FF147912" BorderThickness="3,3,3,3" ClipToBounds="True" CharacterCasing="Normal" IsUndoEnabled="False" TextWrapping="Wrap"/>
+        <UniformGrid Grid.Row="1" Columns ="4" Rows="6" Margin="0,0,0,-350">
+            <Button Content="%" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="CE" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="C" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="←" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="1/x" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="x²" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="√x" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="+" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="7" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="8" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="9" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="*" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="4" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="5" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="6" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="-" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="1" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="2" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="3" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="+" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+            <Button Content="+/-" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="0" Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="," Height="Auto" Width="Auto" Background="#FFACBB99" FontSize="14"/>
+            <Button Content="=" Height="Auto" Width="Auto" Background="#FF739E7A" FontSize="14"/>
+        </UniformGrid>
+
     </Grid>
 </Window>
